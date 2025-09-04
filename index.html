@@ -1,1 +1,432 @@
 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero-header">
+        <div class="hero-bg"></div>
+        <div class="header-overlay"></div>
+
+        <div class="particles"></div>
+        <div class="top-bar">
+            <div class="brand">
+                <h1><i class="fa-solid fa-code"></i> King Faisal Dev</h1>
+                <span class="subtitle">Frontend Developer & UI Designer</span>
+            </div>
+            <nav>
+                <button id="menu-toggle" class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#about"><i class="fa-solid fa-user"></i> About</a></li>
+                    <li><a href="#skills"><i class="fa-solid fa-laptop-code"></i> Skills</a></li>
+                    <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+                    <li><a href="#certifications"><i class="fas fa-certificate"></i> Certifications</a></li>
+                    <li><a href="#projects"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
+                    <li><a href="#testimonials"><i class="fas fa-quote-left"></i> Testimonials</a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="hero-content">
+            <span class="pre-title">Google Cybersecurity Professional</span>
+            <h2>Hello, I'm <span class="highlight">King Faisal</span></h2>
+            <p class="tagline">Protecting the Digital World, One Code at a Time</p>
+                <span class="highlight">Securing tomorrow's technology, today.</span><br>
+                Specializing in Cybersecurity, Network Security, IT, Google Certified Professional.
+                <span id="typed-text"></span>
+            </p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <h3>5+</h3>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat">
+                    <h3>100+</h3>
+                    <p>Projects Secured</p>
+                </div>
+                <div class="stat">
+                    <h3>24/7</h3>
+                    <p>Security Monitoring</p>
+                </div>
+            </div>
+
+
+
+            <div class="cta-buttons">
+                <button id="contact-btn" class="btn primary">
+                    <i class="fa-solid fa-shield-halved"></i> Discuss Security
+                </button>
+                <button class="btn secondary">
+                    <i class="fa-solid fa-file-shield"></i> Security Portfolio
+                </button>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <span>Scroll Down</span>
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+    </header>
+    <section id="about" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead-text">
+                        A passionate Cybersecurity Professional with expertise in protecting digital assets and implementing robust security solutions.
+                    </p>
+                    <div class="terminal">
+                        <div class="terminal-header">
+                            <span class="terminal-dot red"></span>
+                            <span class="terminal-dot yellow"></span>
+                            <span class="terminal-dot green"></span>
+                            <span class="terminal-title">KingFaisal@Terminal: ~</span>
+                        </div>
+                        <div class="terminal-body">
+                            <p>$ whoami</p>
+                            <p>King Faisal - Cybersecurity Expert</p>
+                            <p>$ ls skills/</p>
+                            <p>threat_detection  incident_response  cloud_security  ethical_hacking</p>
+                            <p>$ cat experience.txt</p>
+                            <p>5+ years in cybersecurity, Google Certified Professional</p>
+                        </div>
+                    </div>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <h3>Security Expert</h3>
+                            <p>Specialized in threat detection and incident response</p>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-cloud"></i>
+                            <h3>Cloud Security</h3>
+                            <p>Expert in securing cloud infrastructure and applications</p>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-code"></i>
+                            <h3>Secure Development</h3>
+                            <p>Implementation of secure coding practices</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-shield-virus"></i>
+                    <h3>Cybersecurity</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 95%;"></div>
+                        <span>95%</span>
+                    </div>
+                    <ul>
+                        <li>Threat Detection</li>
+                        <li>Incident Response</li>
+                        <li>Security Auditing</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-cloud-shield"></i>
+                    <h3>Cloud Security</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 90%;"></div>
+                        <span>90%</span>
+                    </div>
+                    <ul>
+                        <li>AWS Security</li>
+                        <li>Azure Security</li>
+                        <li>Cloud Architecture</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code-branch"></i>
+                    <h3>Development</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 85%;"></div>
+                        <span>85%</span>
+                    </div>
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>Security Tools</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Experience Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023 - Present</div>
+                        <h3>Senior Cybersecurity Analyst</h3>
+                        <h4>TechSecure Solutions</h4>
+                        <p>Led comprehensive security assessments, implemented advanced threat detection systems, and managed incident response for enterprise clients.</p>
+                        <div class="timeline-skills">
+                            <span>Threat Detection</span>
+                            <span>SIEM</span>
+                            <span>Incident Response</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2021 - 2023</div>
+                        <h3>Network Security Engineer</h3>
+                        <h4>CyberDefend Inc.</h4>
+                        <p>Designed and implemented secure network architectures, conducted penetration testing, and developed security policies for financial sector clients.</p>
+                        <div class="timeline-skills">
+                            <span>Network Security</span>
+                            <span>Penetration Testing</span>
+                            <span>Firewall Management</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2019 - 2021</div>
+                        <h3>IT Security Specialist</h3>
+                        <h4>GlobalTech Systems</h4>
+                        <p>Monitored security systems, performed vulnerability assessments, and provided technical support for security implementations.</p>
+                        <div class="timeline-skills">
+                            <span>Vulnerability Assessment</span>
+                            <span>Security Monitoring</span>
+                            <span>Compliance</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <i class="fab fa-google"></i>
+                    <h3>Google Cybersecurity Professional</h3>
+                    <p>Certified in advanced cybersecurity practices, threat detection, and incident response.</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Certified Ethical Hacker (CEH)</h3>
+                    <p>Proficient in ethical hacking techniques and vulnerability assessments.</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-lock"></i>
+                    <h3>CompTIA Security+</h3>
+                    <p>Foundation in cybersecurity fundamentals and network security.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Security Dashboard</h3>
+                        <p>Real-time security monitoring and threat detection platform with advanced analytics.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>AWS</span>
+                            <span>Security</span>
+                        </div>
+                        <a href="#" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Vulnerability Scanner</h3>
+                        <p>Automated tool for scanning web applications and networks for vulnerabilities.</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>Node.js</span>
+                            <span>Security</span>
+                        </div>
+                        <a href="#" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Cloud Security Framework</h3>
+                        <p>Comprehensive framework for securing cloud infrastructures with compliance checks.</p>
+                        <div class="project-tags">
+                            <span>Terraform</span>
+                            <span>AWS</span>
+                            <span>Azure</span>
+                        </div>
+                        <a href="#" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <p>"King Faisal's expertise in cybersecurity is unparalleled. His proactive approach to threat detection saved our company from potential breaches."</p>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/50" alt="Client">
+                        <div>
+                            <h4>John Doe</h4>
+                            <span>CEO, TechCorp</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Working with King Faisal was a game-changer. His Google-certified skills and dedication to security are truly impressive."</p>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/50" alt="Client">
+                        <div>
+                            <h4>Jane Smith</h4>
+                            <span>CISO, SecureNet</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Exceptional cybersecurity professional. King Faisal's cloud security frameworks are robust and innovative."</p>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/50" alt="Client">
+                        <div>
+                            <h4>Mike Johnson</h4>
+                            <span>CTO, CloudTech</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>faisalramadhan2511@gmail.com</p>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>Bandung, Indonesia</p>
+                </div>
+
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3><i class="fa-solid fa-shield-halved"></i> King Faisal</h3>
+                <p>Google Cybersecurity Professional</p>
+                <p>Protecting the digital world, one code at a time.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <h4>Connect With Me</h4>
+                <div class="social-links">
+                    <a href="https://instagram.com/d_faisalramadhan" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://facebook.com/delvinfaisalramadhan" target="_blank" title="Facebook">
+                        <i class="fab fa-facebook"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://tiktok.com/@projectalam" target="_blank" title="TikTok">
+                        <i class="fab fa-tiktok"></i>
+                        <span>TikTok</span>
+                    </a>
+                    <a href="https://linkedin.com/in/faisalramadhan" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://wa.me/6285798137527" target="_blank" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>WhatsApp</span>
+                    </a>
+                    <a href="https://github.com/faisalramadhan" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 King Faisal. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <button class="fab" id="top-button">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+</html>
